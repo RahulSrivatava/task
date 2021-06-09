@@ -4,3 +4,6 @@
     font-family: "Google Sans";
     background-color: #F2F6FF;
 }
+body{
+    overflow: hidden;
+}

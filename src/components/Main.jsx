@@ -96,6 +96,7 @@ export const Main = () => {
                 <img src={rectangle} alt="rectangle" />
                 </div>
         </div>
+        
     )
 }
 export default Main;

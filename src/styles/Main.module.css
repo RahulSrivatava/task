@@ -178,14 +178,14 @@
 
 }
 #rectangle{
-  width: 312px;
-  height: 295px;
-  border: 1px solid pink;
-  background: transparent;
-  /* align-items: center; */
-  /* transform: translate(1178px, 14px); */
-  position: absolute;
-
+  width: 135px;
+    /* float: right; */
+    height: 208px;
+    /* right: -12%; */
+    right: 0%;
+    background: transparent;
+    overflow: hidden;
+    position: absolute;
 }
 #rectangle img{
   width: 334px;
