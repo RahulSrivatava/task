@@ -1,0 +1,60 @@
+.navbar{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 0px;
+    margin-left: 25px;
+
+}
+.navbar img{
+    width: 70px;
+    height: 66px;
+}
+.logo{
+    /* margin-left: 150px; */
+    font-family: "Google Sans";
+    font-weight: 700;
+    height: 35px;
+    color: #23233c;
+    font-size: 25px;
+    margin-right: 160px;
+    letter-spacing: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    font-style: normal;
+}
+
+.nav1{
+    display: flex;
+    justify-content: center;
+    margin-right: 200px;
+}
+.nav1 li{
+    list-style: none;
+    text-align: left;
+    margin-left: 66px;
+    color: #7F8DA0;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Google Sans";
+}
+.nav2{
+    display: flex;
+    justify-content: center;
+    width: 63px;
+    height: 29px;
+    font-family: "Google Sans";
+    font-size: 25px;
+    font-weight: 700;
+    text-align: left;
+}
+.nav2 li{
+    list-style: none;
+    margin-left: 2rem;
+}
+#register{
+    color: #6bc37c;
+    font-weight: 700;
+}
