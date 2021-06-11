@@ -1,0 +1,55 @@
+.bottom_content{
+    height:100vh;
+    width: auto;
+    /* border:1px solid rgb(80, 3, 80); */
+    position: relative;
+    display: flex;
+    /* overflow-y: hidden; */
+
+}
+.content{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid goldenrod; */
+    position: relative;
+    /* transform: translate(149px, 58px); */
+    background: transparent;
+
+}
+#rect{
+    width: 500px;
+    height: 526px;
+    transform: translate(-317px, -342px);
+    background: transparent;
+    position: relative;
+    
+}
+#btm_content{
+   
+    width: 76%;
+    height: 49%;
+    transform: translate(112px, -454px);
+    background: transparent;
+}
+.btm_2{
+    width: 70%;
+    height: 100%;
+    /* border: 1px solid pink; */
+    overflow: hidden; 
+    position: relative;
+    /* position: absolute; */
+}
+#btm_img{
+    height: 105%;
+    transform: translate(132px, -71px);
+    background: transparent;
+    position: absolute
+}
+#btm_rect{
+    width: 110%;
+    height: 103%;
+    transform: translate(255px, 0px);
+    position: absolute;
+    background: transparent;
+
+}

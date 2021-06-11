@@ -1,34 +1,27 @@
 .upper_part {
-  height: auto;
-  /* border: 2px solid black; */
+  height: 120vh;
   display: flex;
-  margin-left: 50px;
+  margin-left: 58px;
   width: auto;
   position: relative;
-  overflow-y: hidden;
-  /* overflow: hidden;   */
-
+  overflow: hidden;
 }
 .content {
   margin-top: 60px;
-  margin-left: 20px;
+  margin-left: 0px;
   margin-bottom: 10px;
-  height: 60vh;
-  width: 30%;
+  height: 80vh;
+  width: 40%;
 }
 .images {
   height: 100%;
-  width: 68%;
-  display: flex;
+  width: 60%;
   position: relative;
-  /* overflow-x:hidden; */
-  /* overflow-y:hidden; */
-  /* border: 2px solid rgb(44, 73, 235); */
-  /* overflow-y: hidden; */
+  
 }
 #horizontalrule {
-  width: 5%;
-  height: 3px;
+  width: 7%;
+  height: 5px;
   color: #4f5065;
   background-color: #4f5065;
   margin-bottom: 10px;
@@ -39,7 +32,7 @@
   height: 35px;
   color: #7f8da0;
   font-family: "Google Sans";
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 400;
   text-align: left;
 }
@@ -47,195 +40,127 @@
   margin-bottom: 25px;
 }
 #midContent li {
-  width: 603px;
+  width: 400px;
   margin: 0;
   list-style: none;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 700;
   color: #23233c;
 }
-#green {  
-  /* Text style for "Deliciosas" */
+#green {
   color: #6cc57c !important;
-  font-size: 35px !important;
+  font-size: 55px !important;
 }
 #para2 {
-  /* Style for "Encuentra" */
-  width: 658px;
-  height: 17px;
+  width: 500px;
+  height: 30px;
   color: #7f8da0;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 400;
   text-align: left;
-  /* Text style for "Encuentra" */
 }
 
 .logincontainer {
-  height: 329px;
-  width: 32%;
-  /* border: 1px solid black; */
-  margin-top: 95px;
-  /* margin-left: 29px; */
-  margin-left: 0;
-}
-.logincontainer img {
-  margin-top: -403px;
-  width: 299px;
-  height: 519px;
-  background: transparent;
-  margin-left: 21px;
-}
-#elipse {
-  margin-top: 0px;
-  background-color: #d0f0d6;
-  border-radius: 50%;
-  width: 277px;
-  height: 259px;
-  margin-left: 35px;
-}
-#homepage{
-  width: 100%;
   height: 100%;
-}
-#homepage img {
-  width: 303px;
-  height: 480px;
-  margin-left: -169px;
-  background: transparent;
-  margin-top: 105px;
-}
-
-#rect_sml img {
-  width: 305px;
-  height: 120px;
-  margin-left: -316px;
-  margin-top: 28px;
-  background: transparent;
-}
-#rect_content {
-  margin-left: 0px;
-  width: 80%;
-  margin-top: 46px;
-  position: relative;
-  height: 17%;
-  background: transparent;
-  font-size: 15px;
-  transform: translateX(-50px);
+  width: 85%;
   /* border: 1px solid black; */
-}
-#rect_content p {
-  margin: 0;
-  background: transparent;
-  margin-bottom: 5px;
-  width: 100%;
-  text-align: center;
-  margin-bottom: 16px;
-}
-#rect_content ul {
+  margin-top: 30px;
   margin-left: 0;
+}
+#login {
+  width: 58%;
+  height: 119%;
+  transform: translate(-60px, -200px);
   background: transparent;
-  display: flex;
+  z-index: -1;
 }
-#rect_content ul li {
-  background: transparent;
-  list-style: none;
-}
-#item1 {
-  margin-left: 20px !important;
-  color: #ee6a6e;
-  font-weight: 900;
-}
-#list1 {
-  width: 72%;
-  height: 31%;
-}
-#list1 li {
-  margin-left: 35px;
-  font-weight: 700;
-}
-#list2 li {
-  font-size: 10px;
-  margin-left: 30px;
-  color: #bdbdbd;
-  font-weight: 400;
-}
-#list2_item1 {
-  margin-left: 20px !important;
-}
-#rect_lrg {
-  margin-top: 301px;
-  width: 327px;
-  height: 164px;
-  /* border: 1px solid rgb(255, 0, 0); */
-  transform: translateX(-151px);
-  margin-left: 0px;
+#nutri {
+  transform: translate(-245px, -20px);
+  width: 371px;
+  height: 185px;
+  position: absolute;
   background: transparent;
 }
-#rect_lrg img{
-  width: 292px;
-    height: 157px;
+#nutricontent {
+  position: absolute;
+  background: transparent;
+  /* width: 19%; */
+  transform: translate(-156px, 29px);
+}
+#homepage {
+  position: absolute;
+  width: 45%;
+  height: 93%;
+  transform: translate(-137px, 103px);
+  background: transparent;
+}
+#group {
+  position: absolute;
+  width: 441px;
+  height: 284px;
+  background: transparent;
+  transform: translate(-30px, 331px)
+}
+#grpContent {
+  position: absolute;
+    height: 132px;
+    width: 282px;
+    /* transform: translate(43px, 428px); */
     background: transparent;
+    position: absolute;
+    transform: translate(63px, 407px);
 
 }
-#rectangle{
-  width: 135px;
-    /* float: right; */
-    height: 208px;
-    /* right: -12%; */
-    right: 0%;
+#rect {
+  width: 410px;
+    height: 440px;
+    transform: translateX(273px);
     background: transparent;
-    overflow: hidden;
-    position: absolute;
+    position: absolute
 }
-#rectangle img{
-  width: 334px;
-  height: 320px;
-  background: transparent;
-}
-#social{
+
+#social {
   width: 434px;
-    height: 225px;
-    background: transparent;
+  height: 330px;
+  background: transparent;
+  transform: translateY(40px);
   /* border: 1px solid brown; */
   position: relative;
 }
-#app_btn{
-  transform: translate(0px,50px);
-
+#app_btn {
+  transform: translate(0px, 50px);
 }
-#app_btn p{
+#app_btn p {
   position: absolute;
   background: transparent;
   color: white;
-margin-left: 85px;
-margin-top: 25px;
-
+  margin-left: 85px;
+  margin-top: 25px;
 }
-#app_btn img{
+#app_btn img {
   /* position: relative; */
-background: transparent;
-/* transform: translateY(52px); */
-
+  background: transparent;
+  /* transform: translateY(52px); */
 }
-#s_icon{
+#s_icon {
   position: absolute;
-  width: 100px;
-  height: 42px;
+  width: 150px;
+  height: 50px;
   /* border: 1px solid green; */
   background: transparent;
   transform: translateX(291px);
 }
-#s_icon img{
-  margin-left: 8px;
+#s_icon img {
+  margin-left: 25px;
   padding: 5px;
 }
-#s_name{
+#s_name {
   width: 200px;
   height: 26px;
-  transform: translateY(126px);
-  color:#7f8da0
+  transform: translateY(225px);
+  color: #7f8da0;
   /* border: 1px solid black */
 }
-#green_sml{
+#green_sml {
   color: #6cc57c !important;
 }

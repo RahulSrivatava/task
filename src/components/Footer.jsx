@@ -1,9 +1,12 @@
 import React from 'react'
+import style from '../styles/Footer.module.css';
+import footer from '../resources/footer.svg';
 
 export const Footer = () => {
     return (
-        <div>
-           {/* <h1>Heloo from footer</h1>  */}
+        <div  className={style.footer}>
+            <img src={footer} alt="" />
+          
         </div>
     )
 }

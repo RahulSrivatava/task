@@ -1,0 +1,10 @@
+.footer{
+    height: 50vh;
+    /* border:1px solid black; */
+    overflow: hidden;
+}
+.footer img{
+    width: 80%;
+    height: 113%;
+    background: transparent;
+}
