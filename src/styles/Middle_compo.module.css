@@ -1,67 +1,175 @@
-.middlecontainer{
-    height:100vh;
-    width: auto;
-    /* border: 1px solid greenyellow; */
-    margin-left: 50px;
+.middlecontainer {
+  height: 100vh;
+  width: auto;
+  /* border: 1px solid greenyellow; */
+  margin-left: 50px;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+}
+.foodItem {
+  width: 50%;
+  height: 90%;
+  display: flex;
+  /* border: 1px solid brown; */
+}
+.item1 {
+  width: 45%;
+  height: 70%;
+  background: transparent;
+
+  /* position: absolute; */
+  /* border:2px solid blue; */
+}
+.item1 img {
+  width: 134%;
+  height: 122%;
+  background: transparent;
+}
+.item2 {
+  margin-left: 20px;
+  margin-top: 150px;
+  width: 45%;
+  background: transparent;
+
+  height: 70%;
+  /* position: absolute; */
+  /* border:2px solid blue; */
+}
+.item2 img {
+  width: 134%;
+  height: 122%;
+  background: transparent;
+}
+.content {
+  width: 90%;
+  position: relative;
+  height: auto;
+  background: transparent;
+  /* border: 1px solid pink; */
+  font-weight: bold;
+  font-size: 40px;
+}
+.content span {
+  color: #6cc57c;
+}
+#title {
+  height: 19%;
+  transform: translate(0px, 134px);
+  /* border: 3px solid gold; */
+}
+#rule {
+  background: transparent;
+  width: 139px;
+  height: 100px;
+  transform: translate(-47px, 157px);
+}
+#content1 {
+  margin-top: 10%;
+  width: 77%;
+  height: 65%;
+  background: transparent;
+}
+.content #elipse {
+  position: absolute;
+  width: 34%;
+  height: 82%;
+  overflow: hidden;
+  /* right: 5%; */
+  transform: translate(134px, 20.5px);
+  background: transparent;
+}
+.titleContent {
+  width: 67%;
+  height: 45%;
+  /* border: 2px solid blue; */
+  position: absolute;
+  transform: translate(15px, 147px);
+  font-size: 20px;
+  font-weight: 100;
+  color: #7f8da0;
+}
+
+#rescontent {
+  display: none;
+}
+.responsivefoodItem {
+  display: none;
+}
+#rescontent {
+  display: none;
+}
+#responsive_img {
+  display: none;
+}
+.responsivefoodItem1 {
+  display: none;
+}
+.responsivefoodItem2 {
+  display: none;
+}
+#resplate {
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  .middlecontainer {
+    margin: 0;
+    display: block;
+    height: auto;
+    transform: translateY(-125px);
+  }
+  #item {
+    display: none;
+  }
+  .foodItem {
+   display: none;
+  }
+  .item1 {
+    display: none;
+  }
+  .item2 {
+    display: none;
+  }
+  #content1 {
+    display: none;
+  }
+  #elipse {
+    display: none;
+  }
+  #resplate {
+    display: block;
+    width: 220%;
+    height: 140%;
+    transform: translate(-500px, -139px);
+    background: transparent;
+  }
+
+  .content {
     position: relative;
-    display: flex;
-    overflow: hidden;
-}
-.foodItem{
-    width: 50%;
-    height: 90%;
-    display: flex;
-    /* border: 1px solid brown; */
-}
-.item1{
-    width:45%;
-    height: 70%;
-    background: transparent;
-
-    /* position: absolute; */
-    /* border:2px solid blue; */
-}
-.item1 img{
-    width: 134%;
-    height: 122%;
-    background: transparent;
-
-}
-.item2{
-    margin-left: 20px;
-    margin-top: 150px;
-    width: 45%;
-    background: transparent;
-
-    height: 70%;
-    /* position: absolute; */
-    /* border:2px solid blue; */
-}
-.item2 img{
-    width: 134%;
-    height: 122%;
-    background: transparent;
-
-}
-.content{
     width: 90%;
-    position: relative;
-    height: 90%;;
+    height: 85vh;
+    transform: translate(15px);
+    /* border: 2px solid black; */
+
+  }
+  #rule{
     background: transparent;
-    /* border: 1px solid pink; */
-}
-.content img{
-    margin-top: 10%;
-    width: 77%;
-    height: 65%;
+    width: 150px;
+    height: 100px;
+    transform: translate(-35px, -9px);
+  }
+  #title{
+    transform: translate(14px, -45px);
+    /* border: 3px solid gold; */
     background: transparent;
-}
-.content #elipse{
-    position: absolute;
-    width: 34%;
-    height: 82%;
-    overflow: hidden;
-    /* right: 5%; */
-    transform: translate(134px, 20.5px);
-    background: transparent;
+    font-size: 48px;
+  }
+  #title span p{
+      background: transparent;
+  }
+  .titleContent {
+    height: 40%;
+    width: 84%;
+    transform: translate(18px , 74px);
+  }
 }
