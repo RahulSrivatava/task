@@ -1,5 +1,5 @@
 {
-  "homepage":"https://rahulsrivatava.github.io/react-deploy",
+  "homepage": "https://rahulsrivatava.github.io/react-deploy",
   "name": "task",
   "version": "0.1.0",
   "private": true,
@@ -10,6 +10,7 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "classnames": "^2.3.1",
+    "node": "^16.3.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
@@ -40,6 +41,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages":"^2.1.1"
+    "gh-pages": "^2.1.1"
   }
 }
