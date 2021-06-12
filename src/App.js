@@ -3,8 +3,8 @@ import Header from "./components/Header"
 import Main from "./components/Main"
 import  "./App.module.css"
 
-import MiddleContent from './components/Middle_Compo';
-import BottomContent from './components/Bottom_Compo';
+import MiddleContent from './components/MiddleCompo';
+import BottomContent from './components/BottomCompo';
 function App() {
   return (
     <div className="App">

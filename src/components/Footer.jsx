@@ -32,13 +32,13 @@ export const Footer = () => {
 
       <div className={style.social}>
         <div id={style.icon}>
-          <a href="https://web.whatsapp.com/">
+          <a href="#">
             <img src={insta} alt="" />
           </a>
-          <a href="https://web.whatsapp.com/">
+          <a href="#">
             <img src={twitter} alt="" />
           </a>
-          <a href="https://web.whatsapp.com/">
+          <a href="#">
             <img src={fb} alt="" />
           </a>
           <span id={style.app}>Tu app de dieta</span>

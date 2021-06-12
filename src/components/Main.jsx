@@ -33,10 +33,10 @@ export const Main = () => {
           <div className={style.social}>
             <button>Descargar app</button>
             <div id={style.icon}>
-              <a href="">
+              <a href="#">
                 <img src={android} alt="" />
               </a>
-              <a href="">
+              <a href="#">
                 <img src={apple} alt="" />
               </a>
             </div>
@@ -55,10 +55,10 @@ export const Main = () => {
           <div className={style.socialres}>
             <button>Descargar app</button>
             <div id={style.icon}>
-              <a href="">
+              <a href="#">
                 <img src={android} alt="" />
               </a>
-              <a href="">
+              <a href="#">
                 <img src={apple} alt="" />
               </a>
             </div>
